@@ -8,7 +8,7 @@ import {
   Users,
 } from "lucide-react";
 import { Logo } from "./Logo";
-import MainNavigation from "./MainNavigation";
+import NavItem from "./NaviItem";
 
 export default function Sidebar() {
   return (
