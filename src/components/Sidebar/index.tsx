@@ -12,6 +12,7 @@ import {
 import { Logo } from "./Logo";
 import NavItem from "./NaviItem";
 import UsedSpaceWidget from "./UsedSpaceWidget";
+import Profile from "./Profile";
 
 export default function Sidebar() {
   return (
@@ -42,6 +43,10 @@ export default function Sidebar() {
         </nav>
 
         <UsedSpaceWidget />
+
+        <div className="h-px bg-zinc-200" />
+
+        <Profile />
       </div>
     </aside>
   );
