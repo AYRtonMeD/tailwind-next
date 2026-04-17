@@ -5,4 +5,6 @@
   --grid-template-columns-profile: max-content 1fr min-content;
   --grid-template-columns-form: minmax(7.5rem, 17.5rem) minmax(25rem, 1fr)
     minmax(0, 15rem);
+  --border-width-6: 6px;
+  --color-violet-25: #fcfaff;
 }
