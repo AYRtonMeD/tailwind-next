@@ -31,7 +31,7 @@ export default function Select({ children, placeholder }: SelectProps) {
           side="bottom"
           position="popper"
           sideOffset={8}
-          className="z-10 rounded-lg border border-zinc-200 bg-white w-(--radix-select-trigger-width) overflow-hidden"
+          className="z-10 shadow-sm rounded-lg border border-zinc-200 bg-white w-(--radix-select-trigger-width) overflow-hidden"
         >
           <SelectPrimitive.Viewport>{children}</SelectPrimitive.Viewport>
         </SelectPrimitive.Content>
