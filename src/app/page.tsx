@@ -143,43 +143,28 @@ export default function Home() {
                 </Select>
 
                 <div className="flex items-center gap-1">
-                  <button
-                    type="button"
-                    className="p-2 hover:bg-zinc-100 rounded-md hover:cursor-pointer"
-                  >
+                  <Button type="button" variant="ghost">
                     <Bold className="w-4 h-4 text-zinc-500" strokeWidth={3} />
-                  </button>
+                  </Button>
 
-                  <button
-                    type="button"
-                    className="p-2 hover:bg-zinc-100 rounded-md hover:cursor-pointer"
-                  >
+                  <Button type="button" variant="ghost">
                     <Italic className="w-4 h-4 text-zinc-500" strokeWidth={3} />
-                  </button>
+                  </Button>
 
-                  <button
-                    type="button"
-                    className="p-2 hover:bg-zinc-100 rounded-md hover:cursor-pointer"
-                  >
+                  <Button type="button" variant="ghost">
                     <Link className="w-4 h-4 text-zinc-500" strokeWidth={3} />
-                  </button>
+                  </Button>
 
-                  <button
-                    type="button"
-                    className="p-2 hover:bg-zinc-100 rounded-md hover:cursor-pointer"
-                  >
+                  <Button type="button" variant="ghost">
                     <List className="w-4 h-4 text-zinc-500" strokeWidth={3} />
-                  </button>
+                  </Button>
 
-                  <button
-                    type="button"
-                    className="p-2 hover:bg-zinc-100 rounded-md hover:cursor-pointer"
-                  >
+                  <Button type="button" variant="ghost">
                     <ListOrdered
                       className="w-4 h-4 text-zinc-500"
                       strokeWidth={3}
                     />
-                  </button>
+                  </Button>
                 </div>
               </div>
               <Textarea
